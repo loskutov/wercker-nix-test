@@ -1,0 +1,9 @@
+box:
+    id: folsomlabs/base-nix
+    cmd: /bin/sh
+build:
+  steps:
+    - script:
+        name: hello
+        code: |
+            nix-shell --run "echo hello"
