@@ -1,5 +1,5 @@
 box:
-    id: folsomlabs/base-nix
+    id: loskutov/nix
     cmd: /bin/sh
 build:
   steps:
